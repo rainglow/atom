@@ -1,0 +1,173 @@
+atom-text-editor {
+	background-color: #2e2c2b;
+	color: #dedede;
+
+	.invisible-character,
+	.indent-guide {
+		color: lighten(#2e2c2b, 10%);
+	}
+
+	.gutter {
+		background-color: darken(#2e2c2b, 4%);
+	}
+
+	.gutter .line-number {
+		color: lighten(#2e2c2b, 25%);
+	}
+
+	.gutter .line-number.folded,
+	.gutter .line-number:after,
+	.fold-marker:after {
+		color: #617fa0;
+	}
+
+	.cursor-line {
+		background-color: lighten(#2e2c2b, 4%);
+	}
+
+	.cursor {
+		border-color: #f8f8f0;
+	}
+
+	.selection .region {
+		background-color: #617fa055;
+		color: #ffffff;
+	}
+
+	.line-number.cursor-line-no-selection {
+		background-color: lighten(#2e2c2b, 4%);
+		color: lighten(#2e2c2b, 30%);
+	}
+
+	.wrap-guide {
+		background-color: lighten(#2e2c2b, 10%); 
+	}
+}
+
+.bracket-matcher {
+	background-color: #617fa0;
+	opacity: 0.4;
+	border:1px solid #dedede;
+}
+
+.syntax--comment {
+	color: #7b726b;
+}
+
+.syntax--entity {
+	color: #95c2e8;
+}
+
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+	color: #dedede;
+}
+
+.syntax--keyword {
+	color: #c2dcf2;
+}
+
+.syntax--storage.syntax--type {
+	color: #4e5d84;
+}
+
+.syntax--storage.syntax--modifier {
+	color: #617fa0;
+}
+
+.syntax--constant {
+	color: #617fa0;
+
+	&.syntax--numeric,
+	&.syntax--boolean {
+		color: #617fa0;
+	}
+}
+
+.syntax--variable {
+	color: #dedede;
+}
+
+.syntax--delimiter, .syntax--brace {
+	color: #dedede;
+}
+
+.syntax--delimiter.syntax--period {
+	color: #617fa0;
+}
+
+.syntax--invalid.syntax--deprecated {
+	text-decoration: underline;
+	color: #dc322f;
+}
+
+.syntax--invalid.syntax--illegal {
+	color: #dc322f;
+}
+
+.syntax--string {
+	color: #ffbb29;
+
+	.syntax--constant.syntax--character.syntax--escape {
+		color: #dc322f;
+	}
+
+	&.syntax--regexp {
+		color: #617fa0;
+	}
+}
+
+.syntax--source.syntax--ruby.syntax--embedded,
+.syntax--string.syntax--regexp.syntax--arbitrary-repitition {
+	color: #dc322f;
+}
+
+.syntax--keyword.syntax--other.syntax--phpdoc {
+	color: #a19790;
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+	color: #4e5d84;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name {
+	color: #617fa0;
+}
+
+.syntax--new {
+	color: #4e5d84;
+}
+
+.syntax--support.syntax--function {
+	color: #ffbb29;
+}
+
+.syntax--function-call {
+	color: #95c2e8;
+}
+
+.syntax--punctuation {
+	color: #dedede;
+}
+
+.syntax--class {
+	color: #617fa0;
+}
+
+.syntax--operator {
+	color: #c2dcf2;
+}
+
+.syntax--comment .syntax--class,
+.syntax--comment .syntax--keyword,
+.syntax--comment .syntax--punctuation {
+	color: #7b726b;
+}
+
+.syntax--closure {
+	color: #dedede;
+}
+
+atom-workspace {
+	background-color: #2e2c2b;
+	color: #dedede;
+}
