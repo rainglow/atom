@@ -1,0 +1,18 @@
+{
+  "name": "comrade-rainglow-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Comrade - Part of the Rainglow color themes collection by Dayle Rees.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "rainglow",
+    "dayle",
+    "rees"
+  ],
+  "repository": "https://github.com/rainglow/atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
