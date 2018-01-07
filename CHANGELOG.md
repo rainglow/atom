@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.3 | 2018.01.07
+
+Support for dynamic UI themes.
+
 ## 1.5.2 | 2018.01.05
 
 Added Monzo theme.
