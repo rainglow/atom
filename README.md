@@ -21,16 +21,19 @@ To show support for the project, you can do any (or many!) of the following:
 
 ### Easy Installation
 
-```bash
-apm install atom
-```
-* `setting` - `themes` - `Syntax Theme` - `atom`
-* package `Setting` - `select syntax` - `restart atom editor`
+Install the 'rainglow-atom' package from the repository list or using the CLI as seen below.
 
-### Theme = devtheme
+```bash
+apm install rainglow-atom
 ```
-apm install devtheme
-```
+
+Set `rainglow-atom` as the active theme, and use the 'Select Syntax' option of the package preferences to select the active theme. Then restart Atom.
+
+Thanks to code4mk for adding the color switching functionality to the package!
+
+### Manual Installation
+
+Clone the repository and copy the contents of the themes directory into `~/.atom/packages`. Now restart the editor.
 
 ### Useful Information
 
