@@ -1,0 +1,26 @@
+{
+  "name": "atom",
+  "main": "./lib/rainglow-color",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Atom 300+ Rainglow color themes collection by Dayle Rees & code4mk.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rainglow/atom"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "author": {
+    "name": "rainglow"
+  },
+  "keywords": [
+    "syntax",
+    "theme",
+    "code4mk",
+    "rainglow",
+    "dayle",
+    "rees"
+  ]
+}

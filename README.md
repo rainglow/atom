@@ -21,11 +21,16 @@ To show support for the project, you can do any (or many!) of the following:
 
 ### Easy Installation
 
-This is coming soon. Unfortunately the atom package repos don't allow multiple themes per package by default. So I'm going to write a little JS switcher for you lucky people! You'll have to manual install for now, don't worry, it's not too bad!
+```bash
+apm install atom
+```
+* `setting` - `themes` - `Syntax Theme` - `atom`
+* package `Setting` - `select syntax` - `restart atom editor`
 
-### Manual Installation
-
-Clone the repository and copy the contents of the themes directory into `~/.atom/packages`. Now restart the editor.
+### Theme = devtheme
+```
+apm install devtheme
+```
 
 ### Useful Information
 
