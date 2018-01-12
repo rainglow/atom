@@ -1,5 +1,5 @@
 {
-  "name": "atom",
+  "name": "rainglow-atom",
   "main": "./lib/rainglow-color",
   "theme": "syntax",
   "version": "1.5.3",
