@@ -21,13 +21,13 @@ To show support for the project, you can do any (or many!) of the following:
 
 ### Easy Installation
 
-Install the 'rainglow-atom' package from the repository list or using the CLI as seen below.
+Install the 'rainglow' package from the theme repository list or using the CLI as seen below.
 
 ```bash
-apm install rainglow-atom
+apm install rainglow
 ```
 
-Set `rainglow-atom` as the active theme, and use the 'Select Syntax' option of the package preferences to select the active theme. Then restart Atom.
+Set `Rainglow` as the the active syntax theme then use the settings menu of the plugin to select a color theme. Restart your editor to refresh the changes.
 
 Thanks to code4mk for adding the color switching functionality to the package!
 
