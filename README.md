@@ -2,6 +2,8 @@
 
 ## Atom
 
+[![Atom Plugins](https://img.shields.io/apm/dm/rainglow.svg)](https://atom.io/packages/rainglow)
+
 Rainglow is a collection of color themes for a number of different editors and platforms. This repository consists of **320+ syntax and UI themes** for [Atom](https://atom.io/).
 
 <a href="https://raw.githubusercontent.com/rainglow/examples/master/atom/gloom-contrast.png" target="_blank"><img src="https://raw.githubusercontent.com/rainglow/examples/master/atom/gloom-contrast.png" width="340" /></a><a href="https://raw.githubusercontent.com/rainglow/examples/master/atom/kiwi.png" target="_blank"><img src="https://raw.githubusercontent.com/rainglow/examples/master/atom/kiwi.png" width="340" /></a><a href="https://raw.githubusercontent.com/rainglow/examples/master/atom/piggy.png" target="_blank"><img src="https://raw.githubusercontent.com/rainglow/examples/master/atom/piggy.png" width="340" /></a><a href="https://raw.githubusercontent.com/rainglow/examples/master/atom/earthsong.png" target="_blank"><img src="https://raw.githubusercontent.com/rainglow/examples/master/atom/earthsong.png" width="340" /></a>
