@@ -332,10 +332,10 @@ module.exports =
       'zacks-rainglow-syntax'
       ]
 
-atom.config.onDidChange 'rainglow-atom.SelectSyntax', ({newValue, oldValue}) ->
+atom.config.onDidChange 'rainglow.SelectSyntax', ({newValue, oldValue}) ->
    if(newValue)
-    fs.createReadStream(atom.packages.getPackageDirPaths() + '/rainglow-atom/themes/' + newValue + '/index.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/rainglow-atom/index.less'));
-    fs.createReadStream(atom.packages.getPackageDirPaths() + '/rainglow-atom/themes/' + newValue + '/styles/syntax-variables.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/rainglow-atom/styles/syntax-variables.less'));
+    fs.createReadStream(atom.packages.getPackageDirPaths() + '/rainglow/themes/' + newValue + '/index.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/rainglow/index.less'));
+    fs.createReadStream(atom.packages.getPackageDirPaths() + '/rainglow/themes/' + newValue + '/styles/syntax-variables.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/rainglow/styles/syntax-variables.less'));
    else
-     fs.createReadStream(atom.packages.getPackageDirPaths() + '/rainglow-atom/themes/absent-rainglow-syntax/index.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/rainglow-atom/index.less'));
-     fs.createReadStream(atom.packages.getPackageDirPaths() + '/rainglow-atom/themes/absent-rainglow-syntax/styles/syntax-variables.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/rainglow-atom/styles/syntax-variables.less'));
+     fs.createReadStream(atom.packages.getPackageDirPaths() + '/rainglow/themes/absent-rainglow-syntax/index.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/rainglow/index.less'));
+     fs.createReadStream(atom.packages.getPackageDirPaths() + '/rainglow/themes/absent-rainglow-syntax/styles/syntax-variables.less').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/rainglow/styles/syntax-variables.less'));
