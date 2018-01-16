@@ -1,6 +1,6 @@
 {
   "name": "rainglow",
-  "main": "./lib/rainglow-color",
+  "main": "./lib/rainglow",
   "theme": "syntax",
   "version": "1.5.5",
   "description": "A collection of 300+ color themes for Atom by Dayle Rees. Theme switcher by code4mk.",
@@ -10,7 +10,10 @@
   },
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0"
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.7.0"
   },
   "author": {
     "name": "Dayle Rees"
