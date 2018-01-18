@@ -29,9 +29,8 @@ Install the 'rainglow' package from the theme repository list or using the CLI a
 apm install rainglow
 ```
 
-Set `Rainglow` as the the active syntax theme then use the settings menu of the plugin to select a color theme. Restart your editor to refresh the changes.
-
-Thanks to code4mk for adding the color switching functionality to the package!
+Set `Rainglow` as the the active syntax theme.
+Then use the theme switcher in the Command Palette (cmd-shift-p, then "rainglow") to select a color theme, or use the settings menu of the plugin.
 
 ### Manual Installation
 
