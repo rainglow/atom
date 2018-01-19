@@ -24,5 +24,8 @@
     "rainglow",
     "dayle",
     "rees"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^4.15.0"
+  }
 }
