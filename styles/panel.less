@@ -1,0 +1,29 @@
+.rainglow-panel {
+  display: flex;
+  flex-direction: column;
+
+  .select-list {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    atom-text-editor {
+      flex-shrink: 0;
+    }
+
+    ol.list-group {
+      flex: 1;
+      max-height: none;
+      overflow-x: hidden;
+    }
+  }
+
+  footer {
+    display: flex;
+    margin-top: 10px;
+
+    button {
+      flex: 1;
+    }
+  }
+}

@@ -13,7 +13,8 @@
     "atom": ">=1.13.0 <2.0.0"
   },
   "dependencies": {
-    "atom-select-list": "^0.7.0"
+    "atom-select-list": "^0.7.0",
+    "etch": "^0.12.7"
   },
   "author": {
     "name": "Dayle Rees"
