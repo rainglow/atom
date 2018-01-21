@@ -13,6 +13,8 @@
     "atom": ">=1.13.0 <2.0.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.2",
+    "@fortawesome/fontawesome-free-regular": "^5.0.4",
     "atom-select-list": "^0.7.0",
     "etch": "^0.12.7"
   },
