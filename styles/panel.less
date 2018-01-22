@@ -20,10 +20,15 @@
       flex-shrink: 0;
     }
 
-    ol.list-group {
+    ol.list-group.list-group.mark-active {
       flex: 1;
       max-height: none;
       overflow-x: hidden;
+
+      li.active:before {
+        margin-left: 0.21212em;
+        margin-right: 0.21212em;
+      }
     }
   }
 
