@@ -16,6 +16,7 @@
     "@fortawesome/fontawesome": "^1.1.2",
     "@fortawesome/fontawesome-free-regular": "^5.0.4",
     "atom-select-list": "^0.7.0",
+    "classnames": "^2.2.5",
     "etch": "^0.12.7"
   },
   "author": {
